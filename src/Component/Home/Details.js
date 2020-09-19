@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { fetchDetailsAPI } from '../../Api/Home/detailsApi';
 import '../../scss/1-layout/Details.scss';
@@ -12,7 +12,7 @@ function Details({Data, fetchDetails}){
         fetchDetails({
             id: id
         })
-    },[])
+    })
 
     const finalData = Data.details;
 

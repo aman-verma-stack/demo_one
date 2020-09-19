@@ -23,7 +23,7 @@ class Pagination extends Component {
                     </li>
                     {pageNumbers.map(num => (
                         <li key={num}>
-                            <a className={currentPage == num ? 'active' : ''} onClick={() => paginate(num)} href="#" >{num}</a>
+                            <a className={currentPage === num ? 'active' : ''} onClick={() => paginate(num)} href="#" >{num}</a>
                         </li>
                     ))}
                     <li className="page-item">

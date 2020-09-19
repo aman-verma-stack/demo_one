@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import {
-    BrowserRouter as Router,
     Switch,
     Route,
-    Link, Redirect
+     Redirect
 } from "react-router-dom";
 import List from '../Component/Home/List';
 import Details from '../Component/Home/Details'
