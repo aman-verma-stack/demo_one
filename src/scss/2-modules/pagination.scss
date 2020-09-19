@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    ul{
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        li{
+            list-style: none;
+            float: left;
+            a{
+                display: block;
+                padding: 5px;
+                margin: 5px;
+                background: #777;
+                color: #fff;
+                border-radius: 3px;
+            }
+        }
+        .active{
+            background: red;
+        }
+    }
+}

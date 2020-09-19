@@ -1,0 +1,18 @@
+.showDetails{
+    width: 50%;
+    margin: 0 auto;
+    height: 80vh;
+    text-align: center;
+    display: table;
+    ul{
+        margin: 0px;
+        padding: 0px;
+        display: table-cell;
+        vertical-align: middle;
+        li{
+            list-style: none;
+            padding: 5px;
+        }
+        
+    }
+}

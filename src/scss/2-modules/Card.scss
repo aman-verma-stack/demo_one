@@ -1,0 +1,25 @@
+.cardContainer{
+    background: #2E8B57;
+    padding: 10px;
+    margin: 5px auto;
+    width: 30%;
+    .titleContainer{
+        color: #fff;
+        font-size: 16px;
+        margin: 3px 0px 5px 0px;
+        padding: 0px;
+    }
+    .detailsContainer{
+        margin: 0px;
+        color: #fff;
+        span{
+            float: right;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 600;
+            a{
+                color: #fff;
+            }
+        }
+    }
+}
