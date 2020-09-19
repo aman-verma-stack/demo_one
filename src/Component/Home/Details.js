@@ -12,9 +12,11 @@ function Details({Data, fetchDetails}){
         fetchDetails({
             id: id
         })
-    })
+    },[])
 
     const finalData = Data.details;
+
+    console.log('===',finalData)
 
     return(
         <div className="showDetails">
@@ -22,7 +24,7 @@ function Details({Data, fetchDetails}){
                 <li>Name: {finalData.name}</li>
                 <li>User Name: {finalData.username}</li>
                 <li>Email: {finalData.email}</li>
-                {/* <li>Address: {finalData['address'].street}</li> */}
+                <li>Address: {finalData && finalData.address && finalData.address.street}</li>
                 <li>Phone: {finalData.phone}</li>
             </ul>
         </div>
